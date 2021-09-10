@@ -12,6 +12,7 @@ struct BlueTwothApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CBModel())
         }
     }
 }
